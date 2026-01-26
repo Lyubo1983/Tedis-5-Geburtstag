@@ -1,0 +1,206 @@
+<!DOCTYPE html>  
+<html lang="de">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>🎉 Tedi wird 5! 🎉</title>  
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600;700&display=swap" rel="stylesheet">  
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">  
+</head>  
+<body>  
+    <!-- Animierte Ballons -->  
+    <div class="floating-elements">  
+        <div class="balloon">🎈</div>  
+        <div class="balloon">🎈</div>  
+        <div class="balloon">🎈</div>  
+        <div class="balloon">🎈</div>  
+        <div class="balloon">🎈</div>  
+    </div>  
+  
+    <div class="container">  
+        <!-- Header Card -->  
+        <div class="card card-header">  
+            <div class="age-circle">5</div>  
+            <h1>🎉 Tedi wird 5! 🎉</h1>  
+            <p class="subtitle">Du bist herzlich zu meiner Geburtstagsparty eingeladen!</p>  
+            <div class="stars">⭐ ✨ ⭐ ✨ ⭐</div>  
+        </div>  
+  
+        <!-- Countdown Card -->  
+        <div class="card card-countdown">  
+            <h2>⏰ Countdown zur Party</h2>  
+            <div class="countdown" id="countdown"></div>  
+            <p class="countdown-text">Ich kann es kaum erwarten! 🤗</p>  
+        </div>  
+  
+        <!-- Wann & Wo Card -->  
+        <div class="card card-details">  
+            <h2>📅 Wann & Wo?</h2>  
+            <div class="detail-group">  
+                <div class="detail-item">  
+                    <span class="detail-icon">📅</span>  
+                    <div class="detail-text">  
+                        <strong>Datum</strong>  
+                        <span>Samstag, 22. Februar 2025</span>  
+                    </div>  
+                </div>  
+                <div class="detail-item">  
+                    <span class="detail-icon">🕐</span>  
+                    <div class="detail-text">  
+                        <strong>Zeit</strong>  
+                        <span>11:30 - 14:30 Uhr</span>  
+                    </div>  
+                </div>  
+                <div class="detail-item">  
+                    <span class="detail-icon">📍</span>  
+                    <div class="detail-text">  
+                        <strong>Ort</strong>  
+                        <span>Playroom Multiballclub<br>Gyßlingstraße 72, München</span>  
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+  
+        <!-- Route Card -->  
+        <div class="card card-route">  
+            <h2>🗺️ Wegbeschreibung</h2>  
+            <div class="route-content">  
+                <div class="address-box">  
+                    <p><strong>Playroom Multiballclub</strong></p>  
+                    <p>Gyßlingstraße 72<br>München, Deutschland</p>  
+                </div>  
+                <a href="https://maps.google.com/maps?daddr=Gyßlingstraße+72+München"   
+                   class="btn-route" target="_blank">  
+                    🚗 Route planen  
+                </a>  
+            </div>  
+        </div>  
+  
+        <!-- Motto Card -->  
+        <div class="card card-motto">  
+            <h2>🎪 Unser Party-Motto</h2>  
+            <div class="motto-content">  
+                <div class="motto-item">🏃‍♂️ <span>TOBEN</span></div>  
+                <div class="motto-divider">+</div>  
+                <div class="motto-item">🎵 <span>TANZEN</span></div>  
+                <div class="motto-divider">+</div>  
+                <div class="motto-item">🎤 <span>SINGEN</span></div>  
+                <div class="motto-divider">=</div>  
+                <div class="motto-result">🎉 SUPER SPAß! 🎉</div>  
+            </div>  
+        </div>  
+  
+        <!-- Aktivitäten Card -->  
+        <div class="card card-activities">  
+            <h2>🎮 Was machen wir?</h2>  
+            <div class="activities-grid">  
+                <div class="activity-bubble">🏃‍♂️<br><span>Toben</span></div>  
+                <div class="activity-bubble">⚽<br><span>Ball-Spiele</span></div>  
+                <div class="activity-bubble">🎵<br><span>Musik</span></div>  
+                <div class="activity-bubble">🎤<br><span>Singen</span></div>  
+                <div class="activity-bubble">🍰<br><span>Kuchen</span></div>  
+                <div class="activity-bubble">🥤<br><span>Getränke</span></div>  
+                <div class="activity-bubble">🎁<br><span>Geschenke</span></div>  
+                <div class="activity-bubble">📸<br><span>Fotos</span></div>  
+            </div>  
+        </div>  
+  
+        <!-- Was mitbringen Card -->  
+        <div class="card card-bring">  
+            <h2>🎒 Was sollst du mitbringen?</h2>  
+            <div class="bring-list">  
+                <div class="bring-item">  
+                    <span class="bring-icon">👟</span>  
+                    <div class="bring-text">  
+                        <strong>Turnschuhe</strong>  
+                        <p>Zum Toben und Spielen</p>  
+                    </div>  
+                </div>  
+                <div class="bring-item">  
+                    <span class="bring-icon">👕</span>  
+                    <div class="bring-text">  
+                        <strong>Bequeme Kleidung</strong>  
+                        <p>Die schmutzig werden darf</p>  
+                    </div>  
+                </div>  
+                <div class="bring-item">  
+                    <span class="bring-icon">🧦</span>  
+                    <div class="bring-text">  
+                        <strong>Rutschfeste Socken</strong>  
+                        <p>Für drinnen perfekt</p>  
+                    </div>  
+                </div>  
+                <div class="bring-item">  
+                    <span class="bring-icon">😊</span>  
+                    <div class="bring-text">  
+                        <strong>Gute Laune</strong>  
+                        <p>Das Wichtigste von allem!</p>  
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+  
+        <!-- Eltern Info Card -->  
+        <div class="card card-parents">  
+            <h2>👨‍👩‍👧‍👦 Info für Mama & Papa</h2>  
+            <div class="parent-info">  
+                <div class="info-box">  
+                    <span class="info-emoji">👪</span>  
+                    <p><strong>Ihr könnt gerne bleiben</strong> und bei der Party dabei sein!</p>  
+                </div>  
+                <div class="info-box">  
+                    <span class="info-emoji">☕</span>  
+                    <p><strong>Kaffee & Getränke</strong> gibt es auch für die Erwachsenen.</p>  
+                </div>  
+                <div class="info-box">  
+                    <span class="info-emoji">🅿️</span>  
+                    <p><strong>Parkplätze</strong> sind vor dem Gebäude verfügbar.</p>  
+                </div>  
+            </div>  
+        </div>  
+  
+        <!-- Kontakt Card -->  
+        <div class="card card-contact">  
+            <h2>📞 Bei Fragen oder Verspätung</h2>  
+            <div class="contact-buttons">  
+                <a href="tel:017664384852" class="contact-btn">  
+                    <span class="contact-icon">👨</span>  
+                    <div class="contact-info">  
+                        <strong>Papa Lyubo</strong>  
+                        <span>0176 / 64384852</span>  
+                    </div>  
+                    <span class="call-icon">📞</span>  
+                </a>  
+                  
+                <a href="tel:017620333071" class="contact-btn">  
+                    <span class="contact-icon">👩</span>  
+                    <div class="contact-info">  
+                        <strong>Mama Gaby</strong>  
+                        <span>0176 / 20333071</span>  
+                    </div>  
+                    <span class="call-icon">📞</span>  
+                </a>  
+            </div>  
+        </div>  
+  
+        <!-- Footer Card -->  
+        <div class="card card-footer">  
+            <div class="footer-content">  
+                <h3>🎈 Wir freuen uns riesig auf dich! 🎈</h3>  
+                <p>Es wird bestimmt ein super toller Tag!</p>  
+                <div class="footer-emojis">  
+                    <span class="dancing-emoji">🎉</span>  
+                    <span class="dancing-emoji">🎂</span>  
+                    <span class="dancing-emoji">🎁</span>  
+                    <span class="dancing-emoji">🎵</span>  
+                    <span class="dancing-emoji">🏃‍♂️</span>  
+                </div>  
+                <p class="signature">Bis bald! 💕<br><strong>Tedi & Familie</strong></p>  
+            </div>  
+        </div>  
+    </div>  
+  
+    <script src="script.js"></script>  
+</body>  
+</html>  
