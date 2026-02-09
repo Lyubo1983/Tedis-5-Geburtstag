@@ -1,6 +1,6 @@
 // Countdown Timer  
 function updateCountdown() {  
-    const targetDate = new Date('2025-02-22T11:30:00').getTime();  
+    const targetDate = new Date('2026-02-22T11:30:00').getTime();  
     const now = new Date().getTime();  
     const difference = targetDate - now;  
   
